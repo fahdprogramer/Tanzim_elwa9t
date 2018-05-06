@@ -1,0 +1,83 @@
+  @font-face{
+            font-family:GretaTextArabicBold;
+            src:url(../fonts/GretaTextArabicBold.ttf);
+            font-style:normal;
+
+        }
+        @font-face{
+            font-family:dthuluth2;
+            src:url(../fonts/dthuluth2.ttf);
+            font-style:normal;
+
+        }
+        html, body {
+            background-color: #fff;
+            color:black;
+            font-family:GretaTextArabicBold;
+            font-size: 25px;
+			
+            padding-bottom: 50px;
+
+
+        }
+        .styleinput{
+            border-radius: 20px;
+            margin: 10px;
+            text-align: center;
+
+        }
+        th{
+            text-align: center;
+        }
+
+
+        .bg1{
+            background-color: #f9f9f9;
+        }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 30px;
+				text-align: center;
+				padding-top: 250px;
+				
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+				
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
